@@ -1,0 +1,84 @@
+#alpha{
+    position: -webkit-sticky;
+    position:sticky;
+
+}
+#name{
+    line-height:60%;
+    padding: 10px;
+}
+i{
+    font-size: 20px;
+}
+.aletter{
+    color:grey;
+    display: inline;
+    position: relative;
+    left:40px;
+}
+#alphalist{
+    color:white;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:darkred;
+    text-align: center;
+    padding: 1px;
+    font-weight:lighter;
+    
+}
+#alphalist1{
+    color:white;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:rgb(80, 114, 1);
+    text-align: center;
+    padding: 1px;
+    font-weight:lighter;
+    
+}
+#alphalist2{
+    color:white;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:rgb(1, 9, 114);
+    text-align: center;
+    padding: 1px;
+    font-weight:lighter;
+    
+}
+#alphalist3{
+    color:white;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:rgb(126, 1, 63);
+    text-align: center;
+    padding: 1px;
+    font-weight:lighter;
+    
+}
+#alphalist4{
+    color:white;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:rgb(2, 121, 52);
+    text-align: center;
+    padding: 1px;
+    font-weight:lighter;
+    
+}
+#alphalist5{
+    color:white;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:rgb(121, 103, 2);
+    text-align: center;
+    padding: 1px;
+    font-weight:lighter;
+    
+}

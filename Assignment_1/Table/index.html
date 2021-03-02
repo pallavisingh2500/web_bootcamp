@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 p-4 text-center text-white bg-danger info">
+                <h1>HTML TABLE</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-7">
+                 <table class="table table-bordered text-center">
+                     <thead>
+                         <th>Time/Day</th>
+                         <th>MONDAY</th>
+                         <th>TUESDAY</th>
+                         <th>WEDNESDAY</th>
+                         <th>THURSDAY</th>
+                         <th>FRIDAY</th>
+                         <th>SATURDAY</th>
+                     </thead>
+                     <tbody>
+                         <tr>
+                         <td>9:00 am</td>
+                         <td>maths</td>
+                         <td>maths</td>
+                         <td>maths</td>
+                         <td>science</td>
+                         <td>science</td>
+                         <td>science</td>
+                         </tr>
+                         <tr>
+                            <td>10:00 am</td>
+                            <td>maths</td>
+                            <td>maths</td>
+                            <td rowspan="5">maths</td>
+                            <td>science</td>
+                            <td>science</td>
+                            <td>science</td>
+                            </tr>
+                            <tr>
+                                <td>11:00 am</td>
+                                <td>maths</td>
+                                <td>maths</td>
+                                <td>maths</td>
+                                <td>science</td>
+                                <td>science</td>
+                                </tr>
+                                <tr>
+                                    <td>12:00 pm</td>
+                                    <td colspan="2">maths</td>
+                                    <td>maths</td>
+                                    <td>maths</td>
+                                    <td>science</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1:00 pm</td>
+                                        <td>maths</td>
+                                        <td>maths</td>
+                                        <td>maths</td>
+                                        <td>science</td>
+                                        <td>science</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2:00 pm</td>
+                                            <td>maths</td>
+                                            <td>maths</td>
+                                            <td>maths</td>
+                                            <td>science</td>
+                                            <td>science</td>
+                                            </tr>
+                     </tbody>
+                 </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
