@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    min-height: 100vh;
+    /* background: linear-gradient(to right top, #65dfc9, #6cdbeb); */
+    background: linear-gradient(to right top, #48acf0,#03045e ,#023e8a,#00b4d8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.glass{
+    background: white;
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+}
+.circle1,.circle2{
+    background: white;
+    min-height: 20vh;
+    width: 80%;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.8),rgba(255,255,255,0.3));
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 50%;
+}
+.circle1{
+    top:3%;
+    right:13%;
+   /* background: red; */
+   
+}
+.circle2{
+    bottom: 5%;
+    left:10%;
+}
+section img{
+    /* display: block; */
+    /* margin-left: auto; */
+    /* margin-right: auto;
+    width: 30%; */
+    border-radius: 20%;
+    border: 10px solid #ccc;
+    border-right: 2px solid #ccc;
+    padding:10px;
+    margin-top:90px;
+    margin-left: 40px;
+}
+section h3{
+    text-align: center;
+    color:#03045e;
+    font-size: 20px;
+    padding-top: 20px;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+section p{
+    text-align:center;
+    color: black;
+    font-weight: 900;
+    line-height: 0.9rem;
+}
+#line{
+    border-right: 5px solid #ccc;
+    border-radius: 50%;
+}
+
+.wrapper{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width:100%;
+    padding: 0 20px;
+}
+.contact-form{
+    max-width: 550px;
+    margin: 0 auto;
+    background:rgba(0,0,0,0.8);
+    padding: 30px;
+    border-radius:5px ;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+.input-fields,.msg{
+    width: 48%;
+    margin:10px 0;
+    background: transparent;
+    border:0;
+    border-bottom: 2px solid #c5ecfd;
+    padding: 10px;
+    color: #c5ecfd;
+    width: 100%;
+}
