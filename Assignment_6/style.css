@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color:#fee440 ;
+    margin: 0;
+}
+nav a{
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+section{
+    display:flex;
+    background-image: url('./image/img3.jfif');
+    height: 100vh;
+    color: #fff;
+    /* min-height: 500px; */
+}
+/* .home .max-width{
+    margin: auto 0 auto 40px;
+} */
