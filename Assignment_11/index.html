@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <input  class="inputCityName" placeholder="enter city name" type="text" name="ity">
+        <h1><span id="cityName">,</span> <span id='countryCode'></span></h1>
+        <p id="today"></p>
+        <h1><span class="temp"></span></h1>
+        <!-- <h4><span id="weathers"></span></h4> -->
+        <h5><span id="tempBetween"></span></h5>
+        <div>
+           <img id="weatherIcon">
+           <br>
+           <h1 id="weatherDescrip"></h1>
+           <br>
+           <h2 id="sunSetRise"></h2>
+        </div>
+        <div>
+            <span><i class="fa fa-eye fa_custom"></i></span>
+            <span id='visibility'></span>
+            <br>
+            <span><i class="fa fa-tint"></i></span>
+            <span id='humidity'></span>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
